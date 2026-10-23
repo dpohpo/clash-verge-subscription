@@ -4,7 +4,7 @@ mode: rule
 mixed-port: 7897
 allow-lan: false
 log-level: info
-ipv6: true
+ipv6: false
 external-controller: ''
 secret: set-your-secret
 unified-delay: true
@@ -39,7 +39,7 @@ profile:
   store-fake-ip: false
 external-controller-unix: /tmp/verge/verge-mihomo.sock
 dns:
-  ipv6: true
+  ipv6: false
   enable: true
   listen: 0.0.0.0:1053
   use-hosts: false
