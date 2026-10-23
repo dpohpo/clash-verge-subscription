@@ -287,7 +287,7 @@ proxies:
 - { name: '🇹🇭 Thailand丨01', type: anytls, server: 185.220.239.25, port: '821', password: 026a5b40-5ddd-4ec5-9976-160acef53033, udp: true, client-fingerprint: chrome, sni: emUCdFoC4M3oCW.oss-cn-shanghai.aliyuncs.com, skip-cert-verify: true }
 proxy-groups:
 - name: 天才小金阳
-  icon: https://avatars.githubusercontent.com/u/68877788?v=4
+  icon: https://raw.githubusercontent.com/dpohpo/clash-verge-subscription/main/icon-jinyang.png
   url: http://www.gstatic.com/generate_204
   type: select
   proxies:
