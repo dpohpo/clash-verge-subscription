@@ -195,6 +195,38 @@ sniffer:
   force-dns-mapping: true
   override-destination: true
 proxies:
+- name: '金阳·宇宙第一帅'
+  type: http
+  server: 127.0.0.1
+  port: 9
+- name: '金阳·天才本才认证'
+  type: http
+  server: 127.0.0.1
+  port: 9
+- name: '金阳·颜值即正义'
+  type: http
+  server: 127.0.0.1
+  port: 9
+- name: '金阳·人形自走加速器'
+  type: http
+  server: 127.0.0.1
+  port: 9
+- name: '金阳·全服唯一真神'
+  type: http
+  server: 127.0.0.1
+  port: 9
+- name: '金阳·帅到服务器宕机'
+  type: http
+  server: 127.0.0.1
+  port: 9
+- name: '金阳·才华溢出天际'
+  type: http
+  server: 127.0.0.1
+  port: 9
+- name: '金阳·传说级天花板'
+  type: http
+  server: 127.0.0.1
+  port: 9
 - name: 自建-Hy2
   type: hysteria2
   server: hy.xujinyangai.com
@@ -254,6 +286,19 @@ proxies:
 - { name: '🇲🇾 Malaysia丨01', type: anytls, server: 185.220.239.25, port: '811', password: 026a5b40-5ddd-4ec5-9976-160acef53033, udp: true, client-fingerprint: chrome, sni: emUCdFoC4M3oCW.oss-cn-shanghai.aliyuncs.com, skip-cert-verify: true }
 - { name: '🇹🇭 Thailand丨01', type: anytls, server: 185.220.239.25, port: '821', password: 026a5b40-5ddd-4ec5-9976-160acef53033, udp: true, client-fingerprint: chrome, sni: emUCdFoC4M3oCW.oss-cn-shanghai.aliyuncs.com, skip-cert-verify: true }
 proxy-groups:
+- name: 天才小金阳
+  icon: https://avatars.githubusercontent.com/u/68877788?v=4
+  url: http://www.gstatic.com/generate_204
+  type: select
+  proxies:
+  - '金阳·宇宙第一帅'
+  - '金阳·天才本才认证'
+  - '金阳·颜值即正义'
+  - '金阳·人形自走加速器'
+  - '金阳·全服唯一真神'
+  - '金阳·帅到服务器宕机'
+  - '金阳·才华溢出天际'
+  - '金阳·传说级天花板'
 - name: Proxies
   icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Proxy.png
   url: http://www.gstatic.com/generate_204
